@@ -7,20 +7,26 @@ installs to help with securing wordpress.
 
 ### Files included and what to do with them.
 
+ - [.htaccess](https://github.com/DreadyCrig/Random-WP-Security/blob/master/.htaccess)
+
+Common Spammer IP Blacklists, Spam User Agent Blacklists, and a few other random security and performance enchantments.
+
+This **.htaccess** is a combination of [](http://perishablepress.com/5g-blacklist-2013/) and [HTML5BP](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess)
+
+
+ - [wp-config.php](https://github.com/DreadyCrig/Random-WP-Security/blob/master/wp-config-debug.php)
+
+ Just some helpful constants to add to **wp-config.php** to enable debugging.
 
  - [wp-content/uploads/.htaccess](https://github.com/DreadyCrig/Random-WP-Security/blob/master/wp-content/uploads/.htaccess)
 
 Inside of the uploads folder, this **.htaccess* prevent PHP or any other bad code from being executted
 in the uploads folder.  It's a common way for people to install WebShell Kits is to upload files as images.
 
-
  - [wp-content/themes/library/](https://github.com/DreadyCrig/Random-WP-Security/tree/master/wp-content/themes/library)
 
 This directory should probably be moved to your active theme folder, and include the files you want
 to use from it in your **functions.php** file.
-
-
-
 
 
 #### Library Files
